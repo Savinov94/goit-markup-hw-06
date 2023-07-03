@@ -194,8 +194,8 @@ ul {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1111;
-  letter-spacing: 0.02em;
+  line-height: 40px;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .mob-contact {
@@ -1060,8 +1060,6 @@ input:focus + .modal-form-icon {
   }
 
   .header-contact {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
   }
   .header-address {
     display: flex;
@@ -1070,13 +1068,13 @@ input:focus + .modal-form-icon {
   }
 
   .header-adress-mail {
-    color: var(--slate, #434455);
+    color: var(--main-text-color);
     font-size: 12px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
   }
 
   .header-adress-mail:hover {
@@ -1220,6 +1218,12 @@ input:focus + .modal-form-icon {
     display: flex;
     gap: 40px;
   }
+  .header-adress-mail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 
   /* hero image */
 
@@ -1229,6 +1233,7 @@ input:focus + .modal-form-icon {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/peopleoffice.jpg);
+
     padding: 188px 0;
   }
 
@@ -1266,7 +1271,6 @@ input:focus + .modal-form-icon {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
   }
 
   /* section 3 */
@@ -1311,7 +1315,6 @@ input:focus + .modal-form-icon {
   }
   .container-logo {
     margin-right: 120px;
-    text-align: left;
   }
 
   .footer-soc {
