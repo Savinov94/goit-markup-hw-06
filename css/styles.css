@@ -431,7 +431,6 @@ ul {
   text-transform: capitalize;
   color: var(--title-color);
   margin: 0 auto;
-
   margin-bottom: 72px;
 }
 
@@ -622,7 +621,7 @@ ul {
 }
 
 .subscribe-input {
-  width: 398px;
+  width: 100vh;
   height: 40px;
   border: 1px solid var(--hero-color);
   background-color: transparent;
