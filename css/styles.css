@@ -411,7 +411,7 @@ ul {
 }
 
 .teem-list-item {
-  width: calc((100%-24px * 2) / 6);
+  width: calc((100%-24px * 2) / 1);
 }
 
 .teem {
