@@ -399,7 +399,10 @@ ul {
 }
 
 .container-teem {
-  width: 398px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .teem-list {
