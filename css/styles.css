@@ -395,6 +395,10 @@ ul {
 
 /* section 4 */
 
+.teem {
+  width: 256px;
+}
+
 .teem-list {
   display: flex;
   gap: 72px;
