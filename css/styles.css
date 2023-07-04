@@ -412,7 +412,7 @@ ul {
 }
 
 .teem-list-item {
-  width: calc((100%-120px * 2) / 3);
+  width: calc((100%-24px * 2) / 3);
 }
 
 .teem {
@@ -476,6 +476,7 @@ ul {
 }
 
 .teem-job {
+  width: 100%;
   padding: 32px 0;
 }
 
