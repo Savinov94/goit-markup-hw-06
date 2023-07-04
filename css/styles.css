@@ -404,7 +404,7 @@ ul {
 
 .teem-list {
   display: flex;
-  row-gap: 72px;
+  gap: 72px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
