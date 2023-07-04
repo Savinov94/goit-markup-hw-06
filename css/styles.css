@@ -403,6 +403,7 @@ ul {
 }
 
 .teem-list {
+  width: 100%;
   display: flex;
   row-gap: 72px;
   flex-wrap: wrap;
@@ -411,7 +412,7 @@ ul {
 }
 
 .teem-list-item {
-  width: calc((100%-16px * 2) / 3);
+  width: 100%;
 }
 
 .teem {
