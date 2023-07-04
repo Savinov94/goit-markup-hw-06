@@ -399,17 +399,14 @@ ul {
 }
 
 .container-teem {
-  width: 100%;
-  padding-left: 82px;
-  padding-right: 82px;
-  margin: 0 auto;
 }
 
 .teem-list {
   display: flex;
-  gap: 72px;
+  row-gap: 72px;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 0;
 }
 
 .teem-list-item {
