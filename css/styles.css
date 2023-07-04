@@ -407,11 +407,12 @@ ul {
   row-gap: 72px;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   padding-left: 0;
 }
 
 .teem-list-item {
-  width: calc((100%-24px * 2) / 4);
+  width: calc((100%-24px * 2) / 3);
 }
 
 .teem {
